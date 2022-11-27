@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(210, 46%, 95%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+    
+}
+
+.card{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    border-radius: 16px;
+    
+}
+
+.img img{
+    width: 350px;
+    height: 360px;
+}
+
+.imformation{
+    background-color: white;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+   
+
+    
+}
+
+.imformation h1{
+    color: hsl(217, 19%, 35%);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    
+}
+
+.longp{
+    color: hsl(212, 23%, 69%);
+    
+    justify-content: center;
+}
+
+.madeby{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    
+}
+
+.personal{
+    color: hsl(212, 23%, 69%);
+}
+
+.personal p:first-child{
+    font-weight: 900;
+    color: black;
+}
+
+
+.person img{
+    overflow: hidden;
+    border-radius: 9999px;
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+    margin-left: 16px;
+}
+
+.link{
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 9999px;
+    width: 35px;
+    height: 35px;
+    margin-right: 36px;
+    align-self: center;
+}
